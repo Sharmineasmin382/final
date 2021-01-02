@@ -1,0 +1,67 @@
+*{
+
+	margin: 1px;
+
+	padding:1px;
+	font-family: arial;
+
+	box-sizing: border-box;
+
+}
+
+body{
+
+	height:auto;
+
+	display: grid;
+
+	place-items: center;
+
+	background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.6));
+
+	background-size:100% 100%;
+
+	background-repeat: no-repeat;
+
+}
+h2{
+	text-align:center;
+	
+}
+
+table{
+
+	width: 600px;
+
+	box-shadow: -1px 12px 12px -6px rgba(0,0,0,0.5);
+
+}
+
+table, td, th{
+
+	padding: 20px;
+
+	border: 1px solid lightgray;
+
+	border-collapse: collapse;
+
+	text-align: center;
+
+	cursor: pointer;
+
+}
+td{
+
+	font-size: 18px;
+	background-color:purple;
+
+}
+
+th{
+
+	background-color:grey;
+
+	color: white;
+
+}
+
